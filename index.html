@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 type of card</title>
+    <!-- link style css here  -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Some Types of Forms</h1>
+    <main>
+        <!-- first registration card html code here  -->
+
+        <div class="card1">
+            <h2>Registration Form</h2>
+            <form class="cardForm" action="#">
+                <input type="text" name="name" id="" placeholder="First Name" required>
+                <input type="text" name="name" id="" placeholder="Last Name" required>
+                <input type="email" name="email" id="" placeholder="Email" required>
+                <input type="password" name="password" id="" placeholder="Password" required>
+                <div class="terms">
+                    <input type="checkbox" name="checkbox" id="">
+                    <span>I accept <a href="#">Terms and Conditions</a></span>
+                </div>
+                <div class="regiBtn">
+                <button type="button">Register</button>
+                </div>
+            </form>
+            <span class="span">1. Registration Forms</span>
+        </div>
+        <!-- contact form html code here  -->
+        <div class="card2">
+            <div class="orengBg">
+                <div class="halkaOreng"></div>
+            </div>
+            <img src="IMG_20210911_132829.jpg" alt="Roket">
+
+            <h4>Contact Us</h4>
+            <p>Plesse fill the form in a decnt manner</p>
+
+            <form class="contact" action="#">
+                <label for="name"> Name:
+                    <input type="text" name="name" id="" placeholder="Your Name" required>
+                </label>
+                <label for="email">Email:
+                    <input type="email" name="email" id="" placeholder="Your Email" required>
+                </label>
+                <label for="messge"> Messege:
+                    <textarea name="" id="">Type Message...</textarea>
+                </label>
+              <div class="contactBtnParent">
+                <button class="contact-subBtn">Submit</button>
+              </div>
+            </form>
+            <P class="contactForm">2. Contact Form</P>
+        </div>
+        <!-- Order Form html code start here  -->
+        <div class="card3">
+            <div class="topContent">
+                <div class="child1">
+                    <h3>Make a payment to</h3>
+                    <h2>Complete ACME Anvils Co.</h2>
+                    <span>1 x Large Anvil</span>
+                </div>
+                <div class="child2">
+                    <img src="enhanced-image.png" alt="Visa card">
+                    <img src="enhanced-image (1).png" alt="master card">
+                </div>
+            </div>
+            <div class="pay">
+                <form action="#">
+                    <div class="firstlne">
+                        <label for="amount">Amount to Pay
+                            <input type="number" name="amount" id="amount" placeholder="25.00" required>
+                        </label>
+                    </div>
+
+                    <label for="name of card">Name of Card
+                    <input type="text" name="name of card" id="" required>
+                    </label>
+
+                    <div class="card3parent">
+                        <div class="child1">
+                            <label for="card number">Card number
+                                <input type="text" name="card number" id="" maxlength="16" required>
+                            </label>
+                        </div>
+                        <div class="child2">
+                            <label for="expiry">Expiry
+                                <input type="date" name="" id="" required>
+                            </label>
+                        </div>
+                        <div class="child3">
+                            <label for="cvc">CVC 
+                                <input type="text" name="cvc" id="" maxlength="4" required>
+                            </label>
+                        </div>
+                    </div>
+
+                    <label for="email">Email 
+                        <input type="email" name="email" id="" required placeholder="expamle@gmail.com">
+                    </label>
+
+                    <div class="payBtn">
+                    <button>Pay Now</button>
+                    </div>
+                    <p class="p">3. Order Forms</p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
